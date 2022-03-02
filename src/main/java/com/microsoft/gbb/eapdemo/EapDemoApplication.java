@@ -24,6 +24,6 @@ public class EapDemoApplication extends SpringBootServletInitializer {
 class HelloController {
 	@GetMapping("/hello")
 	public String sayHi() {
-		return "Hi";
+		return "Hi Denny";
 	}
 }
